@@ -1,0 +1,41 @@
+@import '../abstract/variaveis';
+
+
+main {
+    padding-top: 101px;
+    background-color: rgba(220, 6, 44, 0.7);
+    h1 {
+        font-family: $fonte-principal;
+        font-weight: 400;
+        font-size: 50px;
+        display: block;
+        color: $cor-principal;
+        margin: 20px 0 0 116px;
+        
+    }
+
+    .container {
+        display: flex;
+        justify-content: space-around;
+        padding-left: 203px;
+        padding-top: 100px;
+
+        .container-block {
+            text-align: right;
+            margin-top: 50px;
+            
+
+            h2 {
+                color: $cor-principal;
+                font-family: $fonte-principal;
+                font-size: 40px;
+                padding-top: 10px;
+            }
+        }
+    }
+
+    img{
+        margin-bottom: 50px;
+    }
+
+}
